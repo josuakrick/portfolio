@@ -1,0 +1,32 @@
+// COLORS
+
+$green-tiffany: hsla(174, 79%, 43%, 1);
+$white: hsla(317, 30%, 95%, 1);
+$blue-aside-background: hsla(234, 100%, 66%, 1);
+
+// FONT
+$font-geral: 'Montserrat', sans-serif;
+
+
+
+// BREAKPOINTS
+$break-small:580px;
+$break-medio: 830px;
+$break-large: 1060px;
+
+// ANIMATION
+
+@mixin animation {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    @keyframes pulse {
+     0%, 100%{
+       opacity: 1;
+     }
+     50% {
+       opacity: .5;
+     }
+   }
+}
+
+
+
